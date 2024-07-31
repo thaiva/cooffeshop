@@ -1,0 +1,21 @@
+<br><br>
+<div class="container">
+  <h2 class="pt-5" style="font-weight: bold;color:#708090;">TIN TỨC<hr></h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col" ng-repeat="tt in dsTT">
+        <div class="card h-100">
+          <img src="public/img/{{tt.image}}" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title"> 
+              <br>
+             {{ tt.title }}</h5>
+            <p class="card-text">{{ tt.info }}</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">{{ tt.date }}</small>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+</div>

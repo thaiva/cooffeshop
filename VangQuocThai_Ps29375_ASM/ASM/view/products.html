@@ -1,0 +1,61 @@
+<div class="container pt-5">        
+    <div class="row">
+      <h2 class="pt-5" style="font-weight: bold;color:#708090;">DANH MỤC SẢN PHẨM<hr></h2>
+      <article class="col-9 p-3 bg-white row text-center">
+        
+<!--   PRODUCTS -->
+
+<div class="row">
+  <div class="col-md-4 p-3" ng-repeat="sp in dssp">
+    <div class="card">
+      <img src="public/img/{{sp.image}}" class="card-img-top" alt="Product 1">
+      <div class="card-body">
+        <h5 class="card-title"><a href="#!detail/{{sp.id}}"style="text-decoration: none; color: #470c0c;"><strong>{{sp.name}}</strong></a></h5>
+        <p class="card-text">{{sp.price|number:2}}đ</p>
+        <button class="btn btn-outline-dark btn-square" ng-click="mua(sp)">Mua</button>
+                  
+      </div>
+    </div>
+  </div>
+   
+</div>
+<!--  END PRODUCTS -->
+               
+         
+      </article>
+      
+      <aside class="col-3 bg-white">
+        <div class="cart">
+      
+          <div class="card m-3">
+            <div class="card-body">
+              <form action="">
+                <input placeholder="Keyword" class="form-control">
+              </form>
+            </div>
+          </div>
+          <div class="card m-3">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="fa-solid fa-list"></i>
+                    <strong>Danh mục</strong>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <ol class="list-group">
+                    <li class="list-group-item">Cà phê pha phin</li>
+                    <li class="list-group-item">Cà phê giấy</li>                       
+                    <li class="list-group-item">Cà phê hòa tan</li>
+                  </ol>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </aside>
+  </div>
+    </div>

@@ -1,0 +1,375 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "Cà Phê Gourmet Blend",
+      "image": "p1.png",
+      "price": 138000,
+      "cate": "phaphin",
+      "info": "Từ năm 1857, vùng đất Buôn Ma Thuột đã nuôi dưỡng nên những hạt cà phê ngon nhất Việt Nam và Thế giới. Tuyển chọn từ những hạt cà phê ngon nhất cùng bí quyết phối trộn độc đáo, Gourmet Blend có vị đậm đà và hương thơm nồng nàn khó quên."
+    },
+    {
+      "id": "2",
+      "name": "Cà phê phin giấy Blend",
+      "image": "p2.png",
+      "cate": "giay",
+      "price": 124000,
+      "info": "Hương vị cà phê pha phin truyền thống được kết hợp với tiện lợi của phin giấy. Thưởng thức cà phê phin giấy Blend, bạn sẽ trải nghiệm hương vị đậm đà và thú vị của cà phê pha phin truyền thống."
+    },
+    {
+      "id": "3",
+      "name": "Cà phê Sáng Tạo 8",
+      "image": "p3.jpg",
+      "price": 252000,
+      "cate": "phaphin",
+      "info": "Cà phê Sáng Tạo 8 mang đến cho bạn sự tinh tế và độc đáo với 8 hương vị khác nhau. Hòa quyện giữa hương thơm, vị đậm đà và hấp dẫn, Sáng Tạo 8 là lựa chọn hoàn hảo để thưởng thức cà phê đậm đà."
+    },
+    {
+      "id": "4",
+      "name": "Legend Café Sữa Đá",
+      "image": "p4.jpg",
+      "cate": "phaphin",
+      "price": 90000,
+      "info": "Cà phê sữa đá là một trong những thức uống truyền thống và phổ biến nhất ở Việt Nam. Legend Café Sữa Đá mang đến hương vị đậm đà, ngọt ngào và thật sảng khoái cho mọi người."
+    },
+    {
+      "id": "5",
+      "name": "Legend Passiona",
+      "image": "p5.png",
+      "cate": "phaphin",
+      "price": 74000,
+      "info": "Legend Passiona là sự kết hợp độc đáo giữa cà phê và hương vị chanh dây tươi ngon. Với hương thơm tươi mát và vị chua ngọt hài hòa, Passiona là một lựa chọn tuyệt vời cho những ngày nắng nóng."
+    },
+    {
+      "id": "6",
+      "name": "Cappuccino Hazelnut",
+      "image": "p6.jpg",
+      "cate": "phaphin",
+      "price": 75000,
+      "info": "Cappuccino Hazelnut là sự kết hợp hoàn hảo giữa cà phê đậm đà, sữa mịn và hương vị hạnh nhân đặc trưng. Với hương thơm thơm ngon và vị độc đáo, Cappuccino Hazelnut sẽ mang đến trải nghiệm cà phê tuyệt vời cho bạn."
+    },
+    {
+      "id": "7",
+      "name": "Cà phê hòa tan G7",
+      "image": "p7.jpg",
+      "cate": "hoatan",
+      "price": 65000,
+      "info": "Cà phê hòa tan G7 là một sản phẩm cà phê hòa tan chất lượng cao. Với công nghệ sản xuất tiên tiến, G7 mang đến hương vị và mùi thơm tự nhiên của cà phê tươi ngon. Dễ dàng pha chế và tiện lợi, G7 là lựa chọn hoàn hảo cho những người yêu thích cà phê hòa tan."
+    },
+    {
+      "id": "8",
+      "name": "Legend Classic",
+      "image": "p8.png",
+      "cate": "phaphin",
+      "price": 50000,
+      "info": "Legend Classic mang đến hương vị cà phê đậm đà và thơm ngon. Với phong cách cổ điển và độc đáo, Classic là sự lựa chọn hoàn hảo cho những người yêu thích cà phê truyền thống."
+    },
+    {
+      "id": "9",
+      "name": "Legend Success",
+      "image": "p9.jpg",
+      "price": 272000,
+      "cate": "giay",
+      "info": "Legend Success mang đến hương vị mạnh mẽ và đậm đà. Với sự kết hợp độc đáo của cà phê và hương vị cacao, Success là sự lựa chọn tuyệt vời cho những người yêu thích hương vị đặc biệt."
+    },
+    {
+      "id": "10",
+      "name": "Legend Americano",
+      "image": "p10.png",
+      "price": 45000,
+      "cate": "giay",
+      "info": "Legend Americano mang đến hương vị cà phê đậm đà và mạnh mẽ. Với cách pha chế đặc trưng và hương thơm quyến rũ, Americano là lựa chọn hoàn hảo cho những người yêu thích cà phê đen."
+    },
+    {
+      "id": "11",
+      "name": "Legend Cappuccino",
+      "image": "p11.png",
+      "price": 247000,
+      "cate": "giay",
+      "info": "Legend Cappuccino là sự kết hợp hoàn hảo giữa cà phê đậm đà, sữa mịn và bọt sữa đặc trưng. Với hương vị độc đáo và lớp bọt sữa mịn màng, Cappuccino là một lựa chọn tuyệt vời cho những người yêu thích cà phê pha máy."
+    },
+    {
+      "id": "12",
+      "name": "Legend Special",
+      "image": "p12.png",
+      "cate": "giay",
+      "price": 118000,
+      "info": "Legend Special mang đến hương vị đặc biệt và đậm đà. Với cách pha chế độc đáo và hương thơm hấp dẫn, Special là lựa chọn hoàn hảo cho những người yêu thích cà phê đặc biệt."
+    },
+    {
+      "id": "13",
+      "name": "Cà Phê Sữa",
+      "image": "p15.jpg",
+      "cate": "phaphin",
+      "price": 29000,
+      "info": "Cà phê sữa là sự kết hợp tinh tế giữa cà phê đậm đà và sữa thơm ngon. Với vị ngọt nhẹ và hương thơm đặc trưng, Cà Phê Sữa là một thức uống phổ biến và được yêu thích."
+    },
+    {
+      "id": "14",
+      "name": "G7 GOLD",
+      "image": "p13.png",
+      "cate": "hoatan",
+      "price": 65000,
+      "info": "G7 GOLD là phiên bản cao cấp của cà phê hòa tan G7. Với hương vị đậm đà và thơm ngon, G7 GOLD mang đến trải nghiệm cà phê tinh tế và đẳng cấp. Sản phẩm này được chế biến từ những hạt cà phê chất lượng cao, đảm bảo hương vị và mùi thơm tự nhiên của cà phê tươi ngon."
+    },
+    {
+      "id": "15",
+      "name": "Bạc Xỉu",
+      "image": "p14.jpg",
+      "cate": "phaphin",
+      "price": 29000,
+      "info": "Bạc Xỉu là một loại cà phê phổ biến và được ưa chuộng ở Việt Nam. Đặc trưng bởi sự kết hợp giữa cà phê đen đậm đà và sữa ngọt, Bạc Xỉu mang đến hương vị đặc biệt và thú vị. Thưởng thức Bạc Xỉu, bạn sẽ cảm nhận được sự hài hòa giữa vị đắng, vị ngọt và mùi thơm của cà phê."
+    },
+    {
+      "id": "16",
+      "name": "Cà Phê Đen",
+      "image": "p13.jpg",
+      "cate": "phaphin",
+      "price": 29000,
+      "info": "Cà phê đen là một loại cà phê truyền thống và phổ biến trên toàn thế giới. Với vị đắng đặc trưng và hương thơm quyến rũ, Cà Phê Đen mang đến trải nghiệm cà phê đậm đà và mạnh mẽ. Đây là lựa chọn phổ biến cho những người yêu thích cà phê không đường và không sữa."
+    }
+  ],
+  "comment": [
+    {
+      "id": "1d5a",
+      "idNews": "5",
+      "content": "jhkbkn",
+      "name": "thái",
+      "idUser": "1",
+      "date": "2024-04-06 00:35:45"
+    },
+    {
+      "id": "cbba",
+      "idNews": "1",
+      "content": "shjkna",
+      "name": "user",
+      "idUser": "",
+      "date": "2024-04-06 09:16:45"
+    },
+    {
+      "id": "1f88",
+      "idNews": "1",
+      "content": "sadgagd",
+      "name": "user",
+      "idUser": "",
+      "date": "2024-04-06 09:33:08"
+    },
+    {
+      "id": "40a6",
+      "idNews": "1",
+      "content": "k.m.n.m.",
+      "name": "user",
+      "idUser": "",
+      "date": "2024-04-06 09:35:15"
+    },
+    {
+      "id": "0a7d",
+      "idNews": "1",
+      "content": "kn.lhklh,mnj",
+      "name": "user",
+      "idUser": "",
+      "date": "2024-04-06 09:35:17"
+    },
+    {
+      "id": "1512",
+      "idNews": "1",
+      "content": "n.kj.kj.jk.",
+      "name": "user",
+      "idUser": "",
+      "date": "2024-04-06 09:35:21"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "thái",
+      "email": "thai@gmail.com",
+      "password": "thai"
+    },
+    {
+      "id": "7600",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "status": "users"
+    },
+    {
+      "id": "53e5",
+      "name": "admin",
+      "email": "admin2@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "6adb",
+      "name": "thai2004",
+      "email": "124@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "559c",
+      "name": "thai2004",
+      "email": "qthai2004@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "f68b",
+      "name": "a",
+      "email": "qthai2004@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "6180",
+      "name": "cuong",
+      "email": "cuong@gmail.com",
+      "password": "123"
+    }
+  ],
+  "orders": [
+    {
+      "id": "d392",
+      "name": "admin",
+      "idUser": "-1",
+      "phone": 123,
+      "address": "Bến tre",
+      "products": [
+        {
+          "id": "1",
+          "name": "Cà Phê Gourmet Blend",
+          "image": "p1.png",
+          "price": 138000,
+          "info": "Từ năm 1857, vùng đất Buôn Ma Thuột đã nuôi dưỡng nên những hạt cà phê ngon nhất Việt Nam và Thế giới. Tuyển chọn từ những hạt cà phê ngon nhất cùng bí quyết phối trộn độc đáo, Gourmet Blend có vị đậm đà và hương thơm nồng nàn khó quên.",
+          "quantity": 1,
+          "tong": 138000
+        },
+        {
+          "id": "5",
+          "name": "Legend Passiona",
+          "image": "p5.png",
+          "price": 74000,
+          "info": "",
+          "quantity": 2,
+          "tong": 74000
+        },
+        {
+          "id": "6",
+          "name": "Cappuccino Hazelnut",
+          "image": "p6.jpg",
+          "price": 75000,
+          "info": "",
+          "quantity": 2,
+          "tong": 75000
+        }
+      ],
+      "total": 436000,
+      "date": "2024-04-05 11:16:54",
+      "status": "order"
+    },
+    {
+      "id": "c1ec",
+      "name": "Cuong",
+      "idUser": "-1",
+      "phone": 123456789,
+      "address": "Bến tre",
+      "products": [
+        {
+          "id": "1",
+          "name": "Cà Phê Gourmet Blend",
+          "image": "p1.png",
+          "price": 138000,
+          "cate": "phaphin",
+          "info": "Từ năm 1857, vùng đất Buôn Ma Thuột đã nuôi dưỡng nên những hạt cà phê ngon nhất Việt Nam và Thế giới. Tuyển chọn từ những hạt cà phê ngon nhất cùng bí quyết phối trộn độc đáo, Gourmet Blend có vị đậm đà và hương thơm nồng nàn khó quên.",
+          "quantity": 3,
+          "tong": 138000
+        },
+        {
+          "id": "2",
+          "name": "Cà phê phin giấy Blend",
+          "image": "p2.png",
+          "cate": "giay",
+          "price": 124000,
+          "info": "Hương vị cà phê pha phin truyền thống được kết hợp với tiện lợi của phin giấy. Thưởng thức cà phê phin giấy Blend, bạn sẽ trải nghiệm hương vị đậm đà và thú vị của cà phê pha phin truyền thống.",
+          "quantity": 2,
+          "tong": 248000
+        },
+        {
+          "id": "4",
+          "name": "Legend Café Sữa Đá",
+          "image": "p4.jpg",
+          "cate": "phaphin",
+          "price": 90000,
+          "info": "Cà phê sữa đá là một trong những thức uống truyền thống và phổ biến nhất ở Việt Nam. Legend Café Sữa Đá mang đến hương vị đậm đà, ngọt ngào và thật sảng khoái cho mọi người.",
+          "quantity": 1,
+          "tong": 90000
+        }
+      ],
+      "total": 752000,
+      "date": "2024-04-09 08:37:29",
+      "status": "order"
+    },
+    {
+      "id": "cd36",
+      "name": "thai",
+      "idUser": "-1",
+      "phone": 839594895,
+      "address": "Bến tre",
+      "products": [
+        {
+          "id": "12",
+          "name": "Legend Special",
+          "image": "p12.png",
+          "cate": "giay",
+          "price": 118000,
+          "info": "Legend Special mang đến hương vị đặc biệt và đậm đà. Với cách pha chế độc đáo và hương thơm hấp dẫn, Special là lựa chọn hoàn hảo cho những người yêu thích cà phê đặc biệt.",
+          "quantity": 1,
+          "tong": 118000
+        }
+      ],
+      "total": 118000,
+      "date": "2024-04-09 08:41:39",
+      "status": "order"
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "image": "bg1.jpg",
+      "title": "CÀ PHÊ: NHẠT VÀ ĐẬM",
+      "date": "2024-04-05 11:16:54",
+      "info": "Đôi khi ly cà phê nhạt vẫn có thể làm đậm chút nào đó những giây phút đời mình trong những tháng ngày nhạt nhoà nối tiếp…"
+    },
+    {
+      "id": "2",
+      "image": "bg2.jpg",
+      "title": "HƯỚNG DẪN PHA CÀ PHÊ PHIN",
+      "date": "2024-04-03 09:24:12",
+      "info": "Hãy khám phá cách pha cà phê phin truyền thống để tận hưởng hương vị đậm đà và thú vị của cà phê."
+    },
+    {
+      "id": "3",
+      "image": "bg3.jpg",
+      "title": "CÀ PHÊ: NGUỒN GỐC VÀ LỊCH SỬ",
+      "date": "2024-04-01 14:32:18",
+      "info": "Khám phá nguồn gốc và lịch sử phát triển của cà phê từ những thời kỳ xa xưa đến ngày nay."
+    },
+    {
+      "id": "4",
+      "image": "bg4.jpg",
+      "title": "CÀ PHÊ: CÔNG THỨC PHA CHẾ ĐỘC ĐÁO",
+      "date": "2024-03-29 16:45:09",
+      "info": "Tận hưởng sự độc đáo và thú vị với những công thức pha chế cà phê độc đáo từ khắp nơi trên thế giới."
+    },
+    {
+      "id": "5",
+      "image": "bg5.jpg",
+      "title": "CÀ PHÊ: LỢI ÍCH VÀ TÁC DỤNG SỨC KHỎE",
+      "date": "2024-03-26 10:58:37",
+      "info": "Khám phá những lợi ích và tác dụng tốt cho sức khỏe của việc uống cà phê một cách hợp lý và đúng cách."
+    },
+    {
+      "id": "6",
+      "image": "bg6.jpg",
+      "title": "CÀ PHÊ: KỸ THUẬT RANG MỘT CÁCH CHUYÊN NGHIỆP",
+      "date": "2024-03-23 08:12:54",
+      "info": "Tìm hiểu về quy trình và kỹ thuật rang cà phê một cách chuyên nghiệp để tạo ra những hạt cà phê chất lượng cao với hương thơm tuyệt vời."
+    }
+  ]
+}

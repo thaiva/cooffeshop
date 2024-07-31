@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="passwordApp">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Form Mật khẩu</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+</head>
+
+<body>
+
+  <div ng-controller="PasswordController">
+    <form>
+      <div>
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" name="password" ng-model="password" required>
+      </div>
+      <div>
+        <label for="confirmPassword">Xác nhận lại mật khẩu:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" ng-model="confirmPassword" required>
+        <span ng-show="!passwordsMatch && confirmPassword.length > 0" style="color: red;">Mật khẩu không khớp.</span>
+      </div>
+      <div>
+        <button type="submit" ng-disabled="!passwordsMatch">Đăng ký</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    angular.module('passwordApp', [])
+      .controller('PasswordController', function ($scope) {
+        $scope.passwordsMatch = false;
+
+        $scope.$watchGroup(['password', 'confirmPassword'], function (newValues) {
+          $scope.passwordsMatch = newValues[0] === newValues[1];
+        });
+      });
+  </script>
+
+</body>
+
+</html>

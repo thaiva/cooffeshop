@@ -1,0 +1,84 @@
+<div class="container pt-5" style="margin-top: 100px;">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <img src="public/img/{{sp.image}}" alt="Product Image" >
+          </div>
+          <div class="col-lg-6">
+            <h1 class="mb-4">{{sp.name}}</h1>
+            <p class="lead"> {{sp.info}}</p>
+            <h2 class="mb-3">Giá:{{sp.price|number:0}}đ</h2>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button class="btn btn-primary me-md-2" type="button"  ng-click="mua(sp)">Thêm vào giỏ hàng</button>
+              <button class="btn btn-primary" ng-click="mua(sp)">Mua</button>
+            </div>
+          </div>
+        </div>
+   
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Bình luận</button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Đánh giá</button>
+          
+        </div>
+      </nav>
+      <div class="tab-content bg-light" id="nav-tabContent">
+        <div class="tab-pane fade show active p-4" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0"><div class="text-warning p-3">
+          <form ng-submit="comment()">
+            <div class="input-group">
+                <input type="text" class="form-control" ng-model="content">
+                <div class="input-group-text">
+                    <button class="btn btn-success" type="submit" >Gửi</button>
+                </div>
+            </div>
+        </form>
+        <br>
+        <div class="card mb-3 border-0" ng-repeat="cmt in dsBL | orderBy:'-date' | limitTo:limit">
+            <div class="row g-0">
+                <div class="col-auto">
+                    <img src="public/img/avatar.jpg" width="60" class="img-fluid rounded-5 border-3" alt="...">
+                </div>
+                <div class="col-10">
+                    <div class="card-body pt-0">
+                        <h5 class="card-title">{{ cmt.name }}</h5>
+                        <p class="card-text">{{ cmt.content}}</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </p>
+                        <button type="submit" ng-if="cmt.idUser==user.id" ng-click="delcmt(cmt.id)" class="btn btn-outline-info">xóa</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-hide="limit >= dsBL.length" class="text-center">
+
+            <button class="btn btn-primary" ng-click="limit =limit + 5">xem thêm</button>
+        </div>
+      </div></div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">  
+          <div class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="text-dark">{{ tt.views }}</span>
+        </div class="text-truncate">
+          </div>
+        
+      </div>
+     
+  <h2 class="pt-5" style="font-weight: bold;color:#708090;">SẢN PHẨM LIÊN QUAN<hr></h2>
+  <div class="row">
+    <div class="col-3 pt-3" ng-repeat="sp in dssp |  limitTo:4">
+      <div class="card">
+        <img src="public/img/{{sp.image}}" class="card-img-top" style="height: 300px;" alt="Product 1">
+        <div class="card-body text-center">
+          <h5 class="card-title"><a href="#!detail/{{sp.id}}" style="text-decoration: none; color: #470c0c;"><strong>{{sp.name}}</strong></a></h5>
+          <p class="card-text">{{sp.price|number:0}}đ</p>                      
+          <button class="btn btn-outline-dark btn-square" data-bs-toggle="modal" data-bs-target="#exampleModal" ng-click="showsp(sp)"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button class="btn btn-outline-dark btn-square" ng-click="mua(sp)">Mua</button>
+          
+        </div>
+      </div>
+    </div>
+</div>
+   </div>
